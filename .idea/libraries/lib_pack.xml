@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="lib-pack">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/controlsfx-8.40.18.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/ikonli-core-2.6.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/ikonli-fontawesome5-pack-2.6.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/ikonli-javafx-2.6.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jfoenix-8.0.10.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

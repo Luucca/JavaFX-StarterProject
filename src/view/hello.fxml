@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import org.kordamp.ikonli.javafx.FontIcon?>
+
+<VBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="300.0" prefWidth="300.0" spacing="24.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.HelloController">
+   <children>
+      <HBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" spacing="8.0">
+         <children>
+            <FontIcon iconLiteral="far-arrow-alt-circle-up" iconSize="18" />
+            <Label fx:id="labelContagem" text="Contagem: 0">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+         </children>
+      </HBox>
+      <JFXButton fx:id="botaoIncrementar" buttonType="RAISED" contentDisplay="RIGHT" graphicTextGap="8.0" onAction="#quandoHouverClick" prefWidth="124.0" style="-fx-background-color: #3a9fbf;" text="Incrementar" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+         <graphic>
+            <FontIcon iconColor="WHITE" iconLiteral="fas-plus" />
+         </graphic>
+      </JFXButton>
+   </children>
+</VBox>
